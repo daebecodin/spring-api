@@ -1,0 +1,11 @@
+access database: docker exec -it postgres-spring-boot bash
+                 psql -U daebecodin
+                 \c dae
+
+access SWE Table: \d software_engineer
+
+returns SWE table rows: SELECT * FROM software_engineer;
+
+insert SWE into table: INSERT INTO software_engineer (name, tech_stack) VALUES ('name', 'stack, stack, stack');
+
+returns updated table: SELECT * FROM software_engineer;
