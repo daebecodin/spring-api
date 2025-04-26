@@ -17,16 +17,6 @@ public class SoftwareEngineerController {
     @GetMapping
     public List<SoftwareEngineer> getEngineers() {
         return softwareEngineerService.getAllSoftwareEngineers();
-//                new SoftwareEngineer(
-//                        1,
-//                        "durand",
-//                        "java, spring-boot, js, react, tailwindcss, swift, swiftui"
-//                ),
-//                new SoftwareEngineer(
-//                        2,
-//                        "josiah",
-//                        "java, python, c++"
-//                )
     }
 
     @GetMapping("{id}")
